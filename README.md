@@ -19,15 +19,25 @@ The Mamba-360 framework is a collection of State Space Models in various Domains
   - [Multi-Modal](#multi-modal)
   - [Mixture of Experts](#moe)
   - [Point Cloud](#point-cloud)
+ 
+ ```
+ @article{patro2024mamba,
+  title={Mamba-360: Survey of State Space Models as Transformer Alternative for Long Sequence Modelling: Methods, Applications, and Challenges},
+  author={Patro, Badri Narayana and Agneeswaran, Vijay Srinivas},
+  journal={arXiv preprint arXiv:2404.16112},
+  year={2024}
+}
+
+```
 
 ## Basic of SSM
 |       |  |  | 
 | :-------- | :---- | :-------- |
-|[New-Generation Network Architectures]|<img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/694d84aa-4f9c-445d-a918-5a2495603360">| |
-|[Basic State Space Model ]|<img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/925c7605-2a05-444d-be2d-d2333f5f7b3f">| |
-|[Mamba Structure of Selective SSM]|<img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/cf754e60-f674-4957-acbe-5dfab5e9cc42">| |
-|[Mamba Structure of Selective SSM Algo]|<img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/dbafec5e-2201-4394-a42a-a25b8512162b">| |
-|Mamba-360: Survey of State Space Models as Transformer Alternative| <img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/6d2ec8e1-c499-4ec1-bcd1-afb321070f82">||
+|[New-Generation Network Architectures](https://arxiv.org/pdf/2404.16112)|<img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/694d84aa-4f9c-445d-a918-5a2495603360">| |
+|[Basic State Space Model ](https://arxiv.org/pdf/2404.16112)|<img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/925c7605-2a05-444d-be2d-d2333f5f7b3f">| |
+|[Mamba Structure of Selective SSM](https://arxiv.org/pdf/2403.11144v2)|<img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/cf754e60-f674-4957-acbe-5dfab5e9cc42">| |
+|[Mamba Structure of Selective SSM Algo](https://arxiv.org/pdf/2403.11144v2)|<img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/dbafec5e-2201-4394-a42a-a25b8512162b">| |
+|[Mamba-360: Survey of State Space Models as Transformer Alternative](https://arxiv.org/pdf/2404.16112)| <img width="361" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/6d2ec8e1-c499-4ec1-bcd1-afb321070f82">||
 
 ## Survey Paper
 
@@ -168,8 +178,7 @@ The Mamba-360 framework is a collection of State Space Models in various Domains
 | Arxiv 24.04.12| [MambaDFuse: A Mamba-based Dual-phase Model for Multi-modality Image Fusion](https://arxiv.org/pdf/2404.08406)| <img width="1035" alt="mamba_defuse" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/8aec11ed-3030-4910-b665-92556ed3e443">| | 
 | Arxiv 24.04.14|[Fusion-Mamba for Cross-modality Object Detection](https://arxiv.org/pdf/2404.09146) | <img width="902" alt="fusion-mamba" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/5b4d7551-7ef6-48b0-896f-e50aa7e55b22">| |
 | Arxiv 24.04.14|[A Novel State Space Model with Local Enhancement and State Sharing for Image Fusion](https://arxiv.org/pdf/2404.09293)| <img width="1013" alt="levm" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/94d92ae9-7ef3-45ce-9afa-bceacba917f4">| |
-| Arxiv 24.04.15| [FusionMamba: Dynamic Feature Enhancement for Multimodal Image Fusion with Mamba](https://arxiv.org/pdf/2404.09498) | <img width="906" alt="fusionmamba_dynamic" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/8e08130c-b32e-4738-a61b-0dc5cf4b457f">
- | [Github](https://github.com/millieXie/FusionMamba) | 
+| Arxiv 24.04.15| [FusionMamba: Dynamic Feature Enhancement for Multimodal Image Fusion with Mamba](https://arxiv.org/pdf/2404.09498) | <img width="906" alt="fusionmamba_dynamic" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/8e08130c-b32e-4738-a61b-0dc5cf4b457f">| [Github](https://github.com/millieXie/FusionMamba) | 
 | Arxiv 24.04.17| [Text-controlled Motion Mamba: Text-Instructed Temporal Grounding of Human Motion](https://arxiv.org/pdf/2404.11375) | <img width="810" alt="motion" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/abc94560-b21b-4d33-8585-0d6d218d76dc">|  |
 | Arxiv 24.04.24| [CFMW: Cross-modality Fusion Mamba for Multispectral Object Detection under Adverse Weather Conditions](https://arxiv.org/pdf/2404.16302) | <img width="705" alt="image" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/07310952-0b24-478b-a84b-c6bef996d327">| [Github](https://github.com/lhy-zjut/CFMW) | 
 | Arxiv 24.01.25| [MambaMorph: a Mamba-based Framework for Medical MR-CT Deformable Registration](https://arxiv.org/pdf/2401.13934) |<img width="705" alt="mambamorph" src="https://github.com/badripatro/Awesome-Mamba-360/assets/16630972/7446b1ac-a230-4dee-ba51-c2789bee04db">| [Github](https://github.com/Guo-Stone/MambaMorph) |
